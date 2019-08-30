@@ -26,7 +26,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html">
-	<img src="assets/img/neliti-blue.png" alt="logo">
+	<img src="assets/img/neliti.png" height="50px" alt="logo">
 	</a>
 	<!-- End Logo -->
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -34,13 +34,24 @@
 		
 		<!-- End Menu -->
 		<!-- Begin Search -->
-		<form class="form-inline my-2 my-lg-0" style="margin-left:150px; width:100%">
-			<input class="form-control mr-sm-2" style="width:70%" type="text" placeholder="Search">
+		<form class="form-inline my-2 my-lg-0" style="margin-left:0px; width:100%">
+			<input class="form-control mr-sm-2" style="width:60%" type="text" placeholder="Search">
 			<span class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
 		</form>
-		<ul class="navbar-nav ml-auto">
+		<ul class="navbar-nav ml-auto" >
+			<div class="dropdown">
+				<span class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+					<img class="flag" width="20px" src="https://media.neliti.com/static/img/gb.svg" onerror="this.src='https://media.neliti.com/static/img/gb.png'"> EN<span class="caret"></span></span>
+				<ul class="dropdown-menu">
+					<li><a id="flag-link-inactive" href="javascript:void(0);" onclick="set_lang('id', '/id/badan-pusat-statistik');"><img class="flag" width="26" src="https://media.neliti.com/static/img/id.svg" onerror="this.src='https://media.neliti.com/static/img/id.png'"> ID</a></li>
+				</ul>
+			</div>
+			
 			<li class="nav-item">
-			<a class="btn btn-primary nav-link" style="color:white" href="author.html">Login</a>
+			<a class=" nav-link" href="author.html">SignUp</a>
+			</li>
+			<li class="nav-item">
+			<a class=" nav-link" href="author.html">Login</a>
 			</li>
 		</ul>
 		<!-- End Search -->
@@ -52,12 +63,25 @@
 
 <!-- Begin Site Title
 ================================================== -->
-<div class="container">
+<div  style="background-color:  rgba(140, 21, 21, 1); padding-left: 15%; padding-right: 15%; color: #dddddd; align-items: center">
 	<div class="mainheading">
-		<h1 class="sitetitle"><img height="50px" src="https://media.neliti.com/cache/journals/logo-None-agrominansia-c5458486_200x130.jpg"><span style="padding-left: 20px">AGROMANANSIA</h1>
-		<p class="lead" style="margin-bottom : -20px">
-			 <small style="margin-left:5px">About</small> <small style="margin-left:70px">Team</small> <small style="margin-left:60px">Indexing</small> <small style="margin-left:60px">Content</small>
-		</p>
+		<div class="row">
+			<div class="col-sm-4 col-lg-4">
+				<h3 class="sitetitle"><span style="padding-left: 20px; color: white; font-size:31px">Agromanansia</span></h3>
+			</div>
+			<div class="col-sm-2 col-lg-2">
+				<h6 style="padding-top:10px" >About</h6>
+			</div>
+			<div class="col-sm-2 col-lg-2">
+				<h6 style="padding-top:10px">Team</h6>
+			</div>
+			<div class="col-sm-2 col-lg-2">
+				<h6 style="padding-top:10px">Indexing</h6>
+			</div>
+			<div class="col-sm-2 col-lg-2">
+				<h6 style="padding-top:10px">Content</h6>
+			</div>
+
 		<hr>
 	</div>
 </div>
