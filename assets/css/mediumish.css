@@ -12,6 +12,14 @@ body {
 	padding: 0;
 }
 
+.below-header {
+	background-color:  rgba(140, 21, 21, 1); 
+	padding-left: 15%; 
+	padding-right: 15%; 
+	color: #dddddd; 
+	align-items: center
+}
+
 .dropdown-menu {
 	top : 70%;
 	min-width: 4.5rem;
@@ -294,6 +302,10 @@ blockquote {
 		-webkit-flex: 100%;
 		-ms-flex: 100%;
 		flex: 100%;
+	}
+	.below-header {
+		padding-left: 0; 
+		padding-right: 0;
 	}
 	.listfeaturedtag .wrapthumbnail {
 		height:250px;
