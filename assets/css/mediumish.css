@@ -12,6 +12,11 @@ body {
 	padding: 0;
 }
 
+.dropdown-menu {
+	top : 70%;
+	min-width: 4.5rem;
+}
+
 [type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: none;
 }
