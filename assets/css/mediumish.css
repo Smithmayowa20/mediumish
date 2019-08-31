@@ -4,6 +4,8 @@ Copyright:WowThemes.net,https://www.wowthemes.net
 Version:1.0.1
 License: https://www.wowthemes.net/freebies-license/
 */
+
+
 body {
 	padding-top:3.7rem;
 }
@@ -12,9 +14,50 @@ body {
 	padding: 0;
 }
 
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid rgba(140, 21, 21, 1);
+  border-right: none;
+  padding: 5px;
+  height: 32px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-family: 'Slabo 27px', serif;
+  color: #292b2c;
+}
+
+.searchTerm:focus{
+  color: #292b2c;
+}
+
+.searchButton {
+  width: 40px;
+  height: 32px;
+  border: 1px solid rgba(140, 21, 21, 1);
+  background: rgba(140, 21, 21, 1);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+}
+
 .below-header {
 	background-color:  rgba(140, 21, 21, 1); 
-	padding-left: 9%; 
+	padding-left: 9.5%; 
+	padding-top: 29px;
+	padding-bottom: 29px;
 	padding-right: 15%; 
 	color: #dddddd; 
 	align-items: center
@@ -225,7 +268,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mediumnavigation .navbar-brand img {
 	max-height:30px;
-	margin-right:5px;
+	/* margin-right:5px; */
 }
 
 .mainheading h1.posttitle {

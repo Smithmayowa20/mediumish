@@ -27,7 +27,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html">
-	<img src="assets/img/neliti.png" height="50px" alt="logo">
+	<img src="assets/img/neliti.png" alt="logo">
 	</a>
 	<!-- End Logo -->
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -35,23 +35,27 @@
 		
 		<!-- End Menu -->
 		<!-- Begin Search -->
-		<form class="form-inline my-2 my-lg-0" style="margin-left:0px; width:100%">
-			<input class="form-control mr-sm-2" style="width:60%; border: solid 2px;" type="text" placeholder="Search">
-			<span class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
-		</form>
+		<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
 		<ul class="navbar-nav ml-auto" >
 			
 			<li class="nav-item">
-			<a class=" nav-link" href="author.html" style="font-family: 'Crimson Text', serif;">SignUp</a>
+			<a class=" nav-link" href="author.html" style="font-family: 'Slabo 27px', serif; letter-spacing: 2px">SignUp</a>
 			</li>
 			<li class="nav-item">
-			<a class=" nav-link" href="author.html" style="font-family: 'Crimson Text', serif;">Login</a>
+			<a class=" nav-link" href="author.html" style="font-family: 'Slabo 27px', serif; letter-spacing: 2px">Login</a>
 			</li>
 			<div class="dropdown">
-				<span class="btn dropdown-toggle" style="padding-left: 10px; margin-top:4px" type="button" data-toggle="dropdown">
-					<img class="flag" width="26px" style="margin-top: 0px"  src="https://media.neliti.com/static/img/gb.svg" onerror="this.src='https://media.neliti.com/static/img/gb.png'"> <span style="font-family: 'Crimson Text', serif;">EN</span><span class="caret"></span></span>
+				<span class="btn dropdown-toggle" style="padding-left: 10px; margin-top:1.9px" type="button" data-toggle="dropdown">
+					<img class="flag" width="26px" style="margin-top: 0px"  src="https://media.neliti.com/static/img/gb.svg" onerror="this.src='https://media.neliti.com/static/img/gb.png'"> <span style="font-family: 'Slabo 27px', serif; letter-spacing: 2px">EN</span><span class="caret"></span></span>
 				<ul class="dropdown-menu" style="padding-left: 10px">
-					<li><a id="flag-link-inactive" href="javascript:void(0);" onclick="set_lang('id', '/id/badan-pusat-statistik');"><img style="box-shadow: 1px 1px 1px #888;" class="flag" width="20px" src="https://media.neliti.com/static/img/id.svg" onerror="this.src='https://media.neliti.com/static/img/id.png'"> <span style="font-family: 'Crimson Text', serif;">ID</span></a></li>
+					<li><a id="flag-link-inactive" href="javascript:void(0);" onclick="set_lang('id', '/id/badan-pusat-statistik');"><img style="box-shadow: 1px 1px 1px #888;" class="flag" width="20px" src="https://media.neliti.com/static/img/id.svg" onerror="this.src='https://media.neliti.com/static/img/id.png'"> <span style="font-family: 'Slabo 27px', serif; letter-spacing: 2px">ID</span></a></li>
 				</ul>
 			</div>
 		</ul>
@@ -68,19 +72,22 @@
 	<div class="mainheading">
 		<div class="row">
 			<div class="col-sm-4 col-lg-4">
-				<h3 class="sitetitle"><span style="padding-left: 10px; color: white; font-size:31px; font-family: 'Slabo 27px', serif;">Agromanansia</span></h3>
+				<h3 class="sitetitle"><span style=" color: white; font-size:31px; font-weight: 700; letter-spacing: 3px; font-family: 'Slabo 27px', serif;">Agromanansia</span></h3>
 			</div>
 			<div class="col-sm-2 col-lg-2">
-				<h6 style="padding-top:11px; font-family: 'Oswald', sans-serif; font-size:17px" >About</h6>
+				<h6 style="padding-top:11px; font-weight: 700; letter-spacing:2px; font-family: 'Slabo 27px', serif;">About</h6>
 			</div>
 			<div class="col-sm-2 col-lg-2">
-				<h6 style="padding-top:11px; font-family: 'Oswald', sans-serif; font-size:17px">Team</h6>
+				<h6 style="padding-top:11px; font-weight: 700;
+				letter-spacing:2px; font-family: 'Slabo 27px', serif;">Team</h6>
 			</div>
 			<div class="col-sm-2 col-lg-2">
-				<h6 style="padding-top:11px; font-family: 'Oswald', sans-serif; font-size:17px">Indexing</h6>
+				<h6 style="padding-top:11px; font-weight: 700;
+				letter-spacing:2px; font-family: 'Slabo 27px', serif;">Indexing</h6>
 			</div>
 			<div class="col-sm-2 col-lg-2">
-				<h6 style="padding-top:11px; font-family: 'Oswald', sans-serif; font-size:17px">Content</h6>
+				<h6 style="padding-top:11px; font-weight: 700;
+				letter-spacing:2px; font-family: 'Slabo 27px', serif;">Content</h6>
 			</div>
 
 		<hr>
